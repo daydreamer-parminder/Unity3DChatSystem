@@ -343,8 +343,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_state: 0
-  id: 0
-  currentData: 
+  m_id: 0
+  m_frequency: 0
+  m_deviceName: 
 --- !u!4 &178080629
 Transform:
   m_ObjectHideFlags: 0
@@ -683,7 +684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deviceInputSystem: 0
   transmisionSystem: 0
-  inputSystemHandler: {fileID: 1465482305}
+  chatSystemHandler: {fileID: 1465482305}
 --- !u!4 &1157762964
 Transform:
   m_ObjectHideFlags: 0
@@ -738,6 +739,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1465482303}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c7fa04c0d1e5394aa20b186ae2ee9b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9dd529bd5335e504ba4fefb63794695a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

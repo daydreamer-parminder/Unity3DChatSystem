@@ -76,7 +76,7 @@ namespace AudioChat
         {
             float[] samplesToTransmit = new float[sampleCountToTransmit * clipToTransmit.channels];
             clipToTransmit.GetData(samplesToTransmit, lastSampleOffset);
-            m_inputDeviceListener?.onInputUpdated(m_id, currentData);
+           // m_inputDeviceListener?.onInputUpdated(m_id, currentData);
             //AudioTransmissionWriter.Send(new AudioTransmission.Update().AddSendAudio(new SendAudio(new List<float>(samplesToTransmit))));
         }
     }

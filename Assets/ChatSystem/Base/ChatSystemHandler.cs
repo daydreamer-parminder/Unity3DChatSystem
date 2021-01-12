@@ -3,7 +3,7 @@
 namespace AudioChat.Base
 {
 
-    public class InputSystemHandler : MonoBehaviour, IInputDeviceListener, ITransmissionListener
+    public class ChatSystemHandler : MonoBehaviour, IInputDeviceListener, ITransmissionListener
     {
         protected IInputDevice m_inputDevice;
         protected ITransmissionSystem m_transmissionSystem;

@@ -17,7 +17,7 @@ public class Testing : MonoBehaviour
 
     public DeviceInputSystem deviceInputSystem;
     public TransmisionSystem transmisionSystem;
-    public InputSystemHandler inputSystemHandler;
+    public ChatSystemHandler chatSystemHandler;
 
     private void Start()
     {
@@ -74,8 +74,8 @@ public class Testing : MonoBehaviour
                 break;
         }
 
-        inputSystemHandler.onSetInputDevice(ind);
-        inputSystemHandler.onSetOutputDevice(iod);
-        inputSystemHandler.onSetTransmissionSystem(ts);
+        chatSystemHandler.onSetInputDevice(ind);
+        chatSystemHandler.onSetOutputDevice(iod);
+        chatSystemHandler.onSetTransmissionSystem(ts);
     }
 }
