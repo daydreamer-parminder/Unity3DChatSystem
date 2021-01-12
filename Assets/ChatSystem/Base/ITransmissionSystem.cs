@@ -11,5 +11,6 @@ namespace AudioChat.Base
     public interface ITransmissionListener 
     {
         void onTransmissionRecieved(IClient client, byte[] data);
+        void onTransmissionRecieved(int id, byte[] data);
     }
 }

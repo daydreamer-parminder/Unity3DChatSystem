@@ -36,6 +36,10 @@ namespace AudioChat.Base
         {
             m_outputDevice?.onProcessData(data);
         }
+        public void onTransmissionRecieved(int id, byte[] data)
+        {
+            m_outputDevice?.onProcessData(data);
+        }
         #endregion
     }
 }

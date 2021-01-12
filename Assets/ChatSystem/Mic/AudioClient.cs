@@ -19,6 +19,11 @@ namespace AudioChat
         {
      
         }
+
+        public void onTransmissionRecieved(int id, byte[] data)
+        {
+          
+        }
     }
 
 }
