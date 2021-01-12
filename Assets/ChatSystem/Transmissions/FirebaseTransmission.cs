@@ -18,9 +18,10 @@ namespace AudioChat
             m_state = state;
         }
 
-        public void emit(byte[] data)
+        public void emit(IClient client, byte[] data)
         {
 
         }
+        public void emit(int id, byte[] data) { }
     }
 }

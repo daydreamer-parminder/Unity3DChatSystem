@@ -27,12 +27,12 @@ namespace AudioChat.Base
         #region IInputDeviceListener
         public void onInputUpdated(int id, byte[] data)
         {
-            m_transmissionSystem?.emit(data);
+            m_transmissionSystem?.emit(id, data);
         }
         #endregion
 
         #region ITransmissionListener
-        public void onTransmissionRecieved(int id, byte[] data)
+        public void onTransmissionRecieved(IClient client, byte[] data)
         {
             m_outputDevice?.onProcessData(data);
         }
