@@ -13,3 +13,5 @@ Broadcasting or tranmission Integrations:
 
 Note*: 
 You can add new integration in both chat system and tranmission by directly injecting into the ChatSystemHandler.cs
+
+Phase: Under Development mode.
